@@ -8,6 +8,14 @@ Sentence Writing section lets me write 2 sentences. One from audio and the other
 
 Run `main.py` to generate a JSON file called `sentences.json`, then run `findsentence.py` to find sentence in the file by entering words.
 
+## Prerequisites
+
+You must have the python package `pyperclip` for clipboard support, or the program won't work
+
+You may obtain it by command
+
+    $ pip install pyperclip
+
 ## Few words for regex
 
 I really appreciate `regex` because it helps me a lot on searching sentences and vocabulary words in an HTML Document. It really simplifies my program.
