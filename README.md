@@ -6,7 +6,7 @@ Sentence Writing section lets me write 2 sentences. One from audio and the other
 
 ## Usage
 
-Run `findword.py` in the file. Then enter the word the lesson requires. This is the possible output of the program
+Run `findword.py`. Then enter the word the lesson requires. This is the possible output of the program
 
 ```
 Enter the word for sample sentence (empty for exit): abide
