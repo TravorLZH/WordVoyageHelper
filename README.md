@@ -2,15 +2,20 @@
 
 `Word Voyage` is a website that provides lessons for us to study new vocabulary words. Each lesson normally contains 6 sections: Spelling, Pronunciation, Word Root, Games, Sentence Writing and Quiz, in which Sentence Writing costs a lot of time.
 
-Sentence Writing section lets me write 2 sentences. One from audio and the other by my own. After doing several lessons. I discovered that the sentences are already displayed in `Unit Study List`. So, this program written in `Python 3` helps you fetch sentence from a saved `Unit Study List - Word Voyage.html`.
+Sentence Writing section lets me write 2 sentences. One from audio and the other by my own. After doing several lessons. I discovered that the sentences are already displayed in `Unit Word Study List`. So, this program written in `Python 3` helps you fetch sentence from a saved `Unit Study List - Word Voyage.html`.
+
+## Optional
+
+To support finding roots, you need to save the finished cousin practice page in order to get root meaning.
 
 ## Usage
 
 Run `findword.py`. Then enter the word the lesson requires. This is the possible output of the program
 
 ```
-Enter the word for sample sentence (empty for exit): abide
-1.) To endure without yielding; to bear patiently; to accept without objection; to put up with. 2.) To wait; to pause; to delay. 3.) To stay; to continue in a place; to have one's abode; to dwell; with with before a person, and commonly with at or in before a place. 4.) To remain stable or fixed in some state or condition; to continue; to remain.
+Enter the word for sample sentence (empty for exit): mortal
+Definition: 1.) Subject to death; destined to die. 2.) Pertaining to man, who is subject to death, or belonging to this world. 3.) Destructive to life; fatal; deadly; dire; relentless. 4.) Pertaining to death.
+Roots: base: mori, mort, morti, morti(c) (death; to decay, fail)suffix: al (like, of,  pertaining to, that which)
 (The sentence is copied to clipboard)
 ```
 
