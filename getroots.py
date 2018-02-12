@@ -17,3 +17,6 @@ def getroots():
         xx=re.search(r'<h3>Roots:</h3>\s+<ul>\s+(.*?)\s+</ul>', a, re.DOTALL)
         d[title]=html2text(xx.group(1))
     return d
+
+def getbasemeaning(r):
+    return re.search(r'base:.*?\((.*?)\)suffix', r).group(1)

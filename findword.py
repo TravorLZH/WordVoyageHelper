@@ -1,11 +1,16 @@
 import pyperclip
 from getsentences import getsentences
 from getdefinitions import getdefinitions
-from getroots import getroots
+from getroots import *
 
 dic = getsentences()
 dic2 = getdefinitions()
-roots=getroots()
+roots = getroots()
+useroot = True
+
+if not roots:
+    print("Cannot get roots of vocabulary")
+    useroot = False
 
 while True:
     word=str(input("Enter the word for sample sentence (empty for exit): "))
@@ -13,10 +18,12 @@ while True:
         break
     try:
         print("Definition:", dic2[word])
+        if not useroot:
+            continue
         if roots[word]:
-            print("Roots:", roots[word])
+            print("Base means:", getbasemeaning(roots[word]))
     except KeyError:
-        print("No definition found for \""+word+"\"\nPerhaps you misspelled it")
+        print("No definition and/or root found for \""+word+"\"\nPerhaps you misspelled it")
     try:
         pyperclip.copy(dic[word])
     except KeyError:

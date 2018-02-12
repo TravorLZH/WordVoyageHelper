@@ -1,4 +1,4 @@
-# [Word Voyage](http://wordvoyage.com/wv-vocabulary) Sample Sentence Fetcher
+# [Word Voyage](http://wordvoyage.com/wv-vocabulary) Helper
 
 `Word Voyage` is a website that provides lessons for us to study new vocabulary words. Each lesson normally contains 6 sections: Spelling, Pronunciation, Word Root, Games, Sentence Writing and Quiz, in which Sentence Writing costs a lot of time.
 
@@ -15,13 +15,13 @@ Run `findword.py`. Then enter the word the lesson requires. This is the possible
 ```
 Enter the word for sample sentence (empty for exit): mortal
 Definition: 1.) Subject to death; destined to die. 2.) Pertaining to man, who is subject to death, or belonging to this world. 3.) Destructive to life; fatal; deadly; dire; relentless. 4.) Pertaining to death.
-Roots: base: mori, mort, morti, morti(c) (death; to decay, fail)suffix: al (like, of,  pertaining to, that which)
+Base means: death; to decay, fail
 (The sentence is copied to clipboard)
 ```
 
 ## Prerequisites
 
-You must have the python package `pyperclip` for clipboard support, or the program won't work
+You must have the python package `pyperclip` for copying sentences, or the program won't work
 
 You may obtain it by command
 

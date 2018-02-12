@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<!-- saved from url=(0116)https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&unit_id=16468#close -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Word Discovery - Learn - Word Voyage</title>                  
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-	
-  <link rel="stylesheet" href="./Word Discovery - Learn - Word Voyage_files/jquery-ui.css">
-  <link rel="stylesheet" href="./Word Discovery - Learn - Word Voyage_files/dialog.css">
-  <script src="./Word Discovery - Learn - Word Voyage_files/jquery-1.10.2.js.下载"></script>
-  <script src="./Word Discovery - Learn - Word Voyage_files/jquery-ui.js.下载"></script>
-  <script type="text/javascript" src="./Word Discovery - Learn - Word Voyage_files/soundmanager2-jsmin.js.下载"></script>
-  <script type="text/javascript" src="./Word Discovery - Learn - Word Voyage_files/play_mp3.js.下载"></script>
-  <script type="text/javascript" src="./Word Discovery - Learn - Word Voyage_files/get_feedbackB.js.下载"></script>
-  <script type="text/javascript" src="./Word Discovery - Learn - Word Voyage_files/thermometerA.js.下载"></script>
-  <script type="text/javascript" src="./Word Discovery - Learn - Word Voyage_files/wv_dialog.js.下载"></script>
-  <link rel="stylesheet" media="screen, projection" href="./Word Discovery - Learn - Word Voyage_files/student-wv3-common.css">
-	<link rel="stylesheet" media="screen, projection" href="./Word Discovery - Learn - Word Voyage_files/student-wv3-discovery.css">
-	<link rel="stylesheet" media="screen, projection" href="./Word Discovery - Learn - Word Voyage_files/font-styles.css">
-	<link rel="stylesheet" media="screen, projection" href="./Word Discovery - Learn - Word Voyage_files/color-buttons.css">
-  <link rel="stylesheet" media="screen, projection" href="./Word Discovery - Learn - Word Voyage_files/thermometer.css">
+<html lang="en">
 
-<script>
-    var num_skipped_or_completed_words = 27;
-    var max_points = 80;
+<head>
+	<title>Word Discovery - Learn - Word Voyage</title>                  
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/dialog.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="Library/soundmanagerv297a-20150601/script/soundmanager2-jsmin.js"></script>
+  <script type="text/javascript" src="js/play_mp3.js"></script>
+  <script type="text/javascript" src="js/get_feedbackB.js"></script>
+  <script type="text/javascript" src="js/thermometerA.js"></script>
+  <script type="text/javascript" src="js/wv_dialog.js"></script>
+  <link rel="stylesheet" media="screen, projection" href="css/student-wv3-common.css" />
+	<link rel="stylesheet" media="screen, projection" href="css/student-wv3-discovery.css" />
+	<link rel="stylesheet" media="screen, projection" href="css/font-styles.css" />
+	<link rel="stylesheet" media="screen, projection" href="css/color-buttons.css" />
+  <link rel="stylesheet" media="screen, projection" href="css/thermometer.css" />
+
+</head>
+  <script>
+    var num_skipped_or_completed_words = 41;
+    var max_points = 77;
     var help_title = "Word Discovery";
     var help_body = "For each word in this lesson, you will discover its roots, its word cousins, and its origins in world languages. Click any card to begin the discovery. ";
     
@@ -32,7 +34,8 @@
         wv_help_dlg(help_title, help_body);
       }
       thermometer("thermo1", max_points, num_skipped_or_completed_words, false );
-          });
+              $('.next-button').show();
+            });
 
     var sound_manager_ready = false;
     soundManager.onready(function() {
@@ -50,14 +53,15 @@
     document.form1.submit();
   }
 
-</script></head>
-  
-<body style="">
-  
+</script>
+<body>
+  <div style="display: none;" id="dialog" title="Word Discovery">
+  <p class="dialog_body" >For each word in this lesson, you will discover its roots, its word cousins, and its origins in world languages. Click any card to begin the discovery. </p>
+</div>
 
 	<div id="wrap">
     <div class="heading-lesson">
-      <h2>Greek Mythology - Lesson 2 of 5</h2>
+      <h2>Greek Mythology - Lesson 4 of 5</h2>
       <h3>Travor Liu</h3>
     </div>   
     <div class="black-bar"></div>	
@@ -65,20 +69,20 @@
     <!-- main-content -->
     <div class="main-content-lesson">
       <div class="main-content-title">
-        <h1>DISCOVERY - ROOTS, COUSINS &amp; ORIGINS<br></h1>
+        <h1>DISCOVERY - ROOTS, COUSINS &amp; ORIGINS<br /></h1>
       </div>
       <div class="flexbox-main">
         <ul class="flex-container-meaning">            <li class="flex-meaning">
               <div class="card-backdiscovery">
-                <p class="word">upheaval</p>
-                <p><a href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#openModal5823"><span class="icon-fontawesome-webfont-2"></span></a></p>
+                <p class="word">merriment</p>
+                <p><a href="#openModal4447"><span class="icon-fontawesome-webfont-2"></span></a></p>
               </div>
             </li>
-            <div id="openModal5823" class="modalDialog">
+            <div id="openModal4447" class="modalDialog">
               <div>
-                <a href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#close" title="Close" class="close">X</a>
+                <a href="#close" title="Close" class="close">X</a>
                 <div class="wordinfo-container">
-                  <div class="title">upheaval</div>
+                  <div class="title">merriment</div>
                   <div class="leftside-settings">
                     <div class="boxoutlines-left">
                       <h3>Part of Speech</h3>
@@ -86,25 +90,25 @@
                     </div>
                     <div class="boxoutlines-left">
                       <h3>Syllables:</h3>
-                      <p>up-'heav-al</p>
+                      <p>'mer-ri-ment</p>
                     </div>  
                     <div class="boxoutlines-left">
                       <h3>Modern Definition:</h3>
-                      <div style="height: 190px; overflow: auto"><p>1.) Strong or violent change or disturbance, as in a society. 2.) An act of lifting up; raising up or aloft.</p></div>
+                      <div style="height: 190px; overflow: auto"><p>Gaiety, with laughter; mirth; hilarity.</p></div>
                     </div>
                     <div class="boxoutlines-left">
                       <h3>Sample Sentence:</h3>
-                      <p>After the dictator's death, the country experienced a period of upheaval.</p>
+                      <p>Our family reunions are occasions filled with merriment and noise.</p>
                     </div>
                   </div><!-- end leftside -->
                   <div class="rightside-settings">
                     <div class="boxoutlines">
                       <h3>Borrowing:</h3>
-                      <p>From Old English <span class="redhighlight">hebban</span></p>
+                      <p>From Old English <span class="redhighlight">myrige</span></p>
                     </div>
                     <div class="boxoutlines">
                       <h3>Borrowing Meaning:</h3>
-                      <p>to lift, raise; lift up, exalt</p>
+                      <p>pleasing, agreeable</p>
                     </div>
                     <div class="boxoutlines">
                       <h3>Roots:</h3>
@@ -117,7 +121,7 @@
                     </div>
                     <div class="boxoutlines">
                       <h3>English Period:</h3>
-                      <p>Modern English: 1651-present</p>
+                      <p>Early Modern English: 1501-1650</p>
                     </div>
                   </div><!-- end rightside -->
                   <br class="clearboth">
@@ -126,15 +130,15 @@
             </div><!-- end OpenModal2 -->
                                   <li class="flex-meaning">
               <div class="card-backdiscovery">
-                <p class="word">mortal</p>
-                <p><a href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#openModal1529"><span class="icon-fontawesome-webfont-2"></span></a></p>
+                <p class="word">elegant</p>
+                <p><a href="#openModal8434"><span class="icon-fontawesome-webfont-2"></span></a></p>
               </div>
             </li>
-            <div id="openModal1529" class="modalDialog">
+            <div id="openModal8434" class="modalDialog">
               <div>
-                <a href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#close" title="Close" class="close">X</a>
+                <a href="#close" title="Close" class="close">X</a>
                 <div class="wordinfo-container">
-                  <div class="title">mortal</div>
+                  <div class="title">elegant</div>
                   <div class="leftside-settings">
                     <div class="boxoutlines-left">
                       <h3>Part of Speech</h3>
@@ -142,34 +146,34 @@
                     </div>
                     <div class="boxoutlines-left">
                       <h3>Syllables:</h3>
-                      <p>'mor-tal</p>
+                      <p>'el-e-gant</p>
                     </div>  
                     <div class="boxoutlines-left">
                       <h3>Modern Definition:</h3>
-                      <div style="height: 190px; overflow: auto"><p>1.) Subject to death; destined to die. 2.) Pertaining to man, who is subject to death, or belonging to this world. 3.) Destructive to life; fatal; deadly; dire; relentless. 4.) Pertaining to death.</p></div>
+                      <div style="height: 190px; overflow: auto"><p>1.) Pleasing to good taste; characterized by grace, propriety, and refinement; exciting admiration by symmetry, completeness, freedom from blemish, etc.; graceful; highly attractive; luxurious. 2.) Gracefully concise and simple; admirably succinct.</p></div>
                     </div>
                     <div class="boxoutlines-left">
                       <h3>Sample Sentence:</h3>
-                      <p>Mortal man has longed for the immortality of the gods.</p>
+                      <p>The groom looked very elegant in his tuxedo and top hat.</p>
                     </div>
                   </div><!-- end leftside -->
                   <div class="rightside-settings">
                     <div class="boxoutlines">
                       <h3>Borrowing:</h3>
-                      <p>From Latin <span class="redhighlight">mortalis</span></p>
+                      <p>From Latin <span class="redhighlight">elegantem</span></p>
                     </div>
                     <div class="boxoutlines">
                       <h3>Borrowing Meaning:</h3>
-                      <p>subject to death, mortal, of a mortal, human</p>
+                      <p>choice, fine, tasteful</p>
                     </div>
                     <div class="boxoutlines">
                       <h3>Roots:</h3>
                       <ul>
-                         <li>base: <span class="redhighlight">mori, mort, morti, morti(c)</span> (death; to decay, fail)</li><li>suffix: <span class="redhighlight">al</span> (like, of,  pertaining to, that which)</li>                      </ul>
+                         <li>prefix: <span class="redhighlight">e</span> (to, toward)</li><li>base: <span class="redhighlight">leg, leg(e), lex, lig</span> (choose, collect, take, gather, read)</li><li>suffix: <span class="redhighlight">ant</span> (state of, quality of, condition, that which)</li>                      </ul>
                     </div>
                     <div class="boxoutlines">
                       <h3>Meaning Up from the Roots:</h3>
-                      <p>pertaining to death</p>
+                      <p>quality of (something one would) choose, (go) toward</p>
                     </div>
                     <div class="boxoutlines">
                       <h3>English Period:</h3>
@@ -182,15 +186,15 @@
             </div><!-- end OpenModal2 -->
                                   <li class="flex-meaning">
               <div class="card-backdiscovery">
-                <p class="word">eternal</p>
-                <p><a href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#openModal8168"><span class="icon-fontawesome-webfont-2"></span></a></p>
+                <p class="word">wondrous</p>
+                <p><a href="#openModal7535"><span class="icon-fontawesome-webfont-2"></span></a></p>
               </div>
             </li>
-            <div id="openModal8168" class="modalDialog">
+            <div id="openModal7535" class="modalDialog">
               <div>
-                <a href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#close" title="Close" class="close">X</a>
+                <a href="#close" title="Close" class="close">X</a>
                 <div class="wordinfo-container">
-                  <div class="title">eternal</div>
+                  <div class="title">wondrous</div>
                   <div class="leftside-settings">
                     <div class="boxoutlines-left">
                       <h3>Part of Speech</h3>
@@ -198,34 +202,147 @@
                     </div>
                     <div class="boxoutlines-left">
                       <h3>Syllables:</h3>
-                      <p>e-'ter-nal</p>
+                      <p>'won-drous</p>
                     </div>  
                     <div class="boxoutlines-left">
                       <h3>Modern Definition:</h3>
-                      <div style="height: 190px; overflow: auto"><p>1.) Without beginning or end of existence; always existing. 2.) Continued without intermission; perpetual; ceaseless; constant. 3.) Existing at all times without change; immutable.</p></div>
+                      <div style="height: 190px; overflow: auto"><p>Remarkable; inspiring marvel; amazing.</p></div>
                     </div>
                     <div class="boxoutlines-left">
                       <h3>Sample Sentence:</h3>
-                      <p>The big bang theory calls into question the eternal nature of the universe.</p>
+                      <p>The glimpse of land after our long voyage was a wondrous sight.</p>
                     </div>
                   </div><!-- end leftside -->
                   <div class="rightside-settings">
                     <div class="boxoutlines">
                       <h3>Borrowing:</h3>
-                      <p>From Latin <span class="redhighlight">aeternalis</span></p>
+                      <p>From Middle English <span class="redhighlight">wundor</span></p>
                     </div>
                     <div class="boxoutlines">
                       <h3>Borrowing Meaning:</h3>
-                      <p>of an age, lasting, enduring, permanent, endless</p>
+                      <p>marvelous thing, marvel, the object of astonishment</p>
                     </div>
                     <div class="boxoutlines">
                       <h3>Roots:</h3>
                       <ul>
-                         <li>base: <span class="redhighlight">etern</span> (everlasting)</li><li>suffix: <span class="redhighlight">al</span> (like, of,  pertaining to, that which)</li>                      </ul>
+                                               </ul>
                     </div>
                     <div class="boxoutlines">
                       <h3>Meaning Up from the Roots:</h3>
-                      <p>pertaining to everlasting</p>
+                      <p></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Early Modern English: 1501-1650</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
+                                  <li class="flex-meaning">
+              <div class="card-backdiscovery">
+                <p class="word">piety</p>
+                <p><a href="#openModal4441"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
+            </li>
+            <div id="openModal4441" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">piety</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Noun</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>'pi-e-ty</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>1.) Veneration or reverence of the Supreme Being or devout fulfillment of religious obligations. 2.) Dutiful reverence and service shown toward relatives, benefactors, country, etc.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>The simple church was constructed with piety in mind.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From Latin <span class="redhighlight">pietatem</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>dutiful conduct, kindness, piety</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                         <li>base: <span class="redhighlight">pi, piat, piet</span> (devoted, upright, faithful; to cleanse, atone; dutiful conduct, tenderness)</li><li>suffix: <span class="redhighlight">y</span> (state of, result of, act of, inclined to, quality of, pertaining to, that which)</li>                      </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p>state of dutiful conduct, faithful, devoted</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Middle English: 1067-1500</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
+            </ul>
+          <ul class="flex-container-meaning">            <li class="flex-meaning">
+              <div class="card-backdiscovery">
+                <p class="word">plague</p>
+                <p><a href="#openModal2672"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
+            </li>
+            <div id="openModal2672" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">plague</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Noun</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>plague</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>1.) A disease that causes death and spreads quickly to a large number of people. 2.) Any widespread affliction, calamity or evil. 3.) Any cause of trouble, annoyance or vexation.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>Bubonic plague was a disease of rats that was spread by their fleas.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From Latin <span class="redhighlight">plaga</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>pestilence, stroke, wound</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                         <li>base: <span class="redhighlight">plag(ue), plain, plaint, plect, pleg,plex</span> (strike, beat, mourn for)</li>                      </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p>a stroke, a beating</p>
                     </div>
                     <div class="boxoutlines">
                       <h3>English Period:</h3>
@@ -237,96 +354,326 @@
               </div><!-- end blank div -->
             </div><!-- end OpenModal2 -->
                                   <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-wordroots.php?word_id=2716&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">4</p>
-                </div>
-              </a>  
+              <div class="card-backdiscovery">
+                <p class="word">guardian</p>
+                <p><a href="#openModal8591"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
             </li>
+            <div id="openModal8591" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">guardian</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Noun</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>'guard-i-an</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>1.) One who protects or secures; a warden; custodian. 2.) One who has, or is entitled to, the care of the person or property of a minor or a person incapable of managing his own affairs.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>The huge old tree was known as the guardian of the forest.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From Anglo-French <span class="redhighlight">gardein</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>keeper, custodian</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                                               </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Middle English: 1067-1500</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
+                                  <li class="flex-meaning">
+              <div class="card-backdiscovery">
+                <p class="word">supple</p>
+                <p><a href="#openModal510"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
+            </li>
+            <div id="openModal510" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">supple</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Adjective</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>'sup-ple</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>1.) Pliant; flexible; easily bent; limber. 2.) Characterized by ease, responsiveness, and adaptability in mental action. 3.) Compliant; not obstinate; submissive to guidance.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>The young tree's supple branches did not break under the weight of the snow.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From Latin <span class="redhighlight">supplex</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>submissive, humbly begging</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                         <li>prefix: <span class="redhighlight">sup</span> (under, down, up from below)</li><li>base: <span class="redhighlight">pl, pl(e), pleat, plo, plom, ploy, ply</span> (bend, fold)</li>                      </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p>folded under</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Middle English: 1067-1500</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
+                                  <li class="flex-meaning">
+              <div class="card-backdiscovery">
+                <p class="word">harness</p>
+                <p><a href="#openModal3711"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
+            </li>
+            <div id="openModal3711" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">harness</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Noun</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>'har-ness</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>The equipment of a draft or carriage horse, for drawing a wagon, coach, etc.; something resembling this for attaching something to the body.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>The leather straps of the new harness were very stiff.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From French <span class="redhighlight">harnois</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>arms, equipment; harness; tackle; household equipment</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                                               </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Middle English: 1067-1500</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
             </ul>
           <ul class="flex-container-meaning">            <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-wordroots.php?word_id=4451&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">5</p>
-                </div>
-              </a>  
+              <div class="card-backdiscovery">
+                <p class="word">zodiac</p>
+                <p><a href="#openModal10198"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
             </li>
+            <div id="openModal10198" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">zodiac</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Noun</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>'zo-di-ac</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>1.) An imaginary belt in the heavens in the middle of which is the ecliptic, or sun's path. It is divided into twelve constellations or signs for astrological purposes. 2.) A circular design representing this belt and illustrating the figures associated with the constellations.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>The signs of the zodiac were painted on the arch over the stage.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From Greek <span class="redhighlight">zodiakos (kyklos)</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>zodiac (circle); circle of little animals</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                         <li>base: <span class="redhighlight">zo, zo(d), zoo</span> (animal life)</li><li>suffix: <span class="redhighlight">iac</span> (of or connected with, pertaining to, one who)</li>                      </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p>(circle of symbols) pertaining to animal life</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Middle English: 1067-1500</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
                                   <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-nonroot.php?word_id=8969&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">6</p>
-                </div>
-              </a>  
+              <div class="card-backdiscovery">
+                <p class="word">poisonous</p>
+                <p><a href="#openModal3545"><span class="icon-fontawesome-webfont-2"></span></a></p>
+              </div>
             </li>
-                                  <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-nonroot.php?word_id=4635&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">7</p>
-                </div>
-              </a>  
-            </li>
-                                  <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-wordroots.php?word_id=531&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">8</p>
-                </div>
-              </a>  
-            </li>
-            </ul>
-          <ul class="flex-container-meaning">            <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-wordroots.php?word_id=391&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">9</p>
-                </div>
-              </a>  
-            </li>
-                                  <li class="flex-meaning">
-              <a href="https://www.wordvoyage.com/wv-vocabulary/student-wordroots.php?word_id=956&amp;student_assignment_id=659719&amp;unit_id=16468" style="text-decoration: none;">
-                <div class="front card-front">
-                  <p class="discoverystart">10</p>
-                </div>
-              </a>  
-            </li>
+            <div id="openModal3545" class="modalDialog">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="wordinfo-container">
+                  <div class="title">poisonous</div>
+                  <div class="leftside-settings">
+                    <div class="boxoutlines-left">
+                      <h3>Part of Speech</h3>
+                      <p>Adjective</p>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Syllables:</h3>
+                      <p>'poi-son-ous</p>
+                    </div>  
+                    <div class="boxoutlines-left">
+                      <h3>Modern Definition:</h3>
+                      <div style="height: 190px; overflow: auto"><p>1.) Full of or containing a substance with an inherent property that tends to destroy life or impair health; venomous. 2.) Harmful; destructive; corrupting. 3.) Deeply malicious; malevolent.</p></div>
+                    </div>
+                    <div class="boxoutlines-left">
+                      <h3>Sample Sentence:</h3>
+                      <p>With just one bite of the poisonous apple, the princess fell into a deep sleep.</p>
+                    </div>
+                  </div><!-- end leftside -->
+                  <div class="rightside-settings">
+                    <div class="boxoutlines">
+                      <h3>Borrowing:</h3>
+                      <p>From Latin <span class="redhighlight">potionem</span></p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Borrowing Meaning:</h3>
+                      <p>a drink</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Roots:</h3>
+                      <ul>
+                         <li>base: <span class="redhighlight">pois, pot</span> (drink)</li><li>suffix: <span class="redhighlight">on, on(t)</span> (state, quality, activity, pertaining to, that which)</li><li>suffix: <span class="redhighlight">ous</span> (possessing, full of, nature of, state of, having, pertaining to, like, that which)</li>                      </ul>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>Meaning Up from the Roots:</h3>
+                      <p>nature of pertaining to a drink</p>
+                    </div>
+                    <div class="boxoutlines">
+                      <h3>English Period:</h3>
+                      <p>Early Modern English: 1501-1650</p>
+                    </div>
+                  </div><!-- end rightside -->
+                  <br class="clearboth">
+                </div>     <!-- end two column-container -->
+              </div><!-- end blank div -->
+            </div><!-- end OpenModal2 -->
             </ul>
                   <div class="next-button" style="display: none; cursor: pointer;" onclick="goto_next();">NEXT</div>
       </div>
       <table>
-        <tbody><tr>
+        <tr>
           <td class="bottom-buttons" colspan="4" align="center">
             <form id="form1" name="form1" method="post">
-              <input id="action" name="action" hidden="" type="hidden" value="next">
+              <input id="action" name="action" hidden type="hidden" value="next"/>
             </form>
           </td>
         </tr>
-      </tbody></table>
+      </table>
 
     </div><!-- /main-content -->
 	    
     <!-- sidebar-two -->
     <div class="rightside-lesson">
 
-  <div id="thermo1" class="thermometer" style="position: relative;">
+  <div id="thermo1" class="thermometer"  style="position: relative;">
     <div id="lighthouse">
-      <img src="./Word Discovery - Learn - Word Voyage_files/lighthouse-2.png">
-      <div id="light_door" style="position: absolute; z-index: 10; top: 485px; left: 52.75px;">
-        <img src="./Word Discovery - Learn - Word Voyage_files/light-door.png">
+      <img src="images/lighthouse-2.png">
+      <div id="light_door" style="position: absolute; z-index: 10; top: 485px; left: 52.75px; display: none;">
+        <img src="images/light-door.png">
       </div>
       <div id="bottom_light" style="position: absolute; z-index: 10; top: 328px; left: 51.75px; display: none;">
-        <img src="./Word Discovery - Learn - Word Voyage_files/light-round.png">
+        <img src="images/light-round.png">
       </div>
       <div id="top_light" style="position: absolute; z-index: 10; top: 190px; left: 51.75px; display: none;">
-        <img src="./Word Discovery - Learn - Word Voyage_files/light-round.png">
+        <img src="images/light-round.png">
       </div>
       <div id="head_light" style="position: absolute; z-index: 10; top: 65px; left: 0px; display: none;">
-        <img src="./Word Discovery - Learn - Word Voyage_files/light-top-2.png">
+        <img src="images/light-top-2.png">
       </div>
     </div>
     <div class="track">
       <div class="goal">
         <div class="amount"></div>
       </div>
-      <div class="progress" style="height: 33.8%; background: white;">
-        <div class="amount" style="display: block;"></div>
+      <div class="progress">
+        <div class="amount"></div>
       </div>
     </div>
   </div>
@@ -342,22 +689,20 @@
 
     <div class="footer-buttons-inner">
 
-      <a class="button footerbuttons" href="https://www.wordvoyage.com/wv-vocabulary/student-word-discovery.php?student_assignment_id=659719&amp;unit_id=16468#" onclick="$(&#39;#dialog&#39;).dialog(&#39;open&#39;);"><img src="./Word Discovery - Learn - Word Voyage_files/help.svg">&nbsp;&nbsp;HELP</a>
+      <a class="button footerbuttons" href="#" onclick="$('#dialog').dialog('open');"><img src="images/help.svg">&nbsp;&nbsp;HELP</a>
 
-      <a class="button footerbuttons" target="_blank" href="https://www.wordvoyage.com/wv-vocabulary/dictionary.php"><img src="./Word Discovery - Learn - Word Voyage_files/study.svg">&nbsp;&nbsp;DICTIONARY</a>
+      <a class="button footerbuttons" target="_blank" href="dictionary.php"><img src="images/study.svg">&nbsp;&nbsp;DICTIONARY</a>
 
-      <a class="button footerbuttons" target="_blank" href="https://www.wordvoyage.com/wv-vocabulary/student-journal.php"><img src="./Word Discovery - Learn - Word Voyage_files/notebook-and-pen.svg">&nbsp;&nbsp;JOURNAL</a>
+      <a class="button footerbuttons" target="_blank" href="student-journal.php"><img src="images/notebook-and-pen.svg">&nbsp;&nbsp;JOURNAL</a>
 
-      <a class="button footerbuttons" href="https://www.wordvoyage.com/wv-vocabulary/student-dashboard.php"><img src="./Word Discovery - Learn - Word Voyage_files/boat-steering-wheel.svg">&nbsp;&nbsp;DASHBOARD</a>
+      <a class="button footerbuttons" href="student-dashboard.php"><img src="images/boat-steering-wheel.svg">&nbsp;&nbsp;DASHBOARD</a>
 
-      <a class="button footerbuttons" target="_blank" href="https://docs.google.com/forms/d/1hQ6IkmWbJLWMMNlUM9L8DayWcJ14y96mP1cOzTjA0Zk/viewform?c=0&amp;w=1"><img src="./Word Discovery - Learn - Word Voyage_files/mail_white.png">&nbsp;&nbsp;GET SUPPORT</a>
+      <a class="button footerbuttons" target="_blank" href="https://docs.google.com/forms/d/1hQ6IkmWbJLWMMNlUM9L8DayWcJ14y96mP1cOzTjA0Zk/viewform?c=0&w=1"><img src="images/mail_white.png">&nbsp;&nbsp;GET SUPPORT</a>
 
     </div><!-- /buttons-inner -->
 
   </div>
 
   </div>  
-
-<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front warning ui-dialog-buttons ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-describedby="dialog" style="display: none; position: absolute;" aria-labelledby="ui-id-1"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle"><span id="ui-id-1" class="ui-dialog-title">Word Discovery</span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close"><span class="ui-button-icon-primary ui-icon ui-icon-closethick"></span><span class="ui-button-text">Close</span></button></div><div style="" id="dialog" class="ui-dialog-content ui-widget-content">
-  <p class="dialog_body">For each word in this lesson, you will discover its roots, its word cousins, and its origins in world languages. Click any card to begin the discovery. </p>
-</div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button"><span class="ui-button-text">OK</span></button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div></body></html>
+</body>
+</html>
