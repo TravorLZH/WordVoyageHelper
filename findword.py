@@ -21,7 +21,7 @@ while True:
         if not useroot:
             continue
         if roots[word]:
-            print("Base means:", getbasemeaning(roots[word]))
+            print("Base means:", roots[word])
     except KeyError:
         print("No definition and/or root found for \""+word+"\"\nPerhaps you misspelled it")
     try:
